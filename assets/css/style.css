@@ -1,0 +1,144 @@
+.top {
+    margin-bottom: -52px;
+}
+
+#profilePic {
+    transform: rotate(270deg);
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+}
+
+.bio-text {
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bg-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.centered-name {
+    position: absolute;
+    top: 60px;
+    left: 135px;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 220%;
+    text-align: center;
+}
+
+.intro {
+    position: absolute;
+    bottom: 62%;
+    background-color: ghostwhite;
+    padding: 4%;
+    opacity: 0.8;
+    width: 100%;    
+    font-family: 'Courgette', cursive;
+}
+
+#translucent-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+
+.fab {
+    font-size: 50px;
+    color: darkgrey;
+}
+
+.font-awesome {
+    margin-left: 40%;
+}
+
+.portfolio {
+    position: relative;
+    float: left;
+    width: 25%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.quote {
+    margin-top: 5%; 
+    font-family: 'Courgette', cursive;
+}
+
+
+
+.separator-type, .title-type, .intro-type, .content-type .intro-type p {
+    position: relative;
+  }
+  .intro-type .container {
+    padding: 107px 0px 102px 0px !important;
+  }
+  .company-heading h1 {
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700 !important;
+    text-align: center;
+  }
+  .jumbo {
+    margin-top: 50px;
+  }
+  .seo-header, .product-header, 
+  .intro-type .container h1.white, 
+  .company-heading h1 {
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  .parallax {
+    background-attachment: inherit !important;
+  }
+  .parallax {
+    background-attachment: inherit !important;
+  }
+  .parallax {
+    background-attachment: inherit !important;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -10;
+  }
+  .ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    position: relative;
+    bottom: 150px;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    padding-top: 500px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+  }
+  img, 
+  figure {
+    max-width: 100%;
+  }
